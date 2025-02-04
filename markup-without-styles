@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8"/>
+        <title>UJJO - hot sauce for coffee</title>
+    </head>
+    <body>
+        <header>
+            <section>
+                <button>GO BACK</button>
+                <a href="#">STORY</a>
+                <a href="#">SHOP</a>
+                <picture>
+                    <source srcset="">
+                    <img src="https://live.verstaem.online/ujjo/img/logo.svg" alt="logo">
+                </picture>
+                <a href="#">CONTACT</a>
+                <a href="#">WHOLESALE</a>
+                <button>CLONE</button>
+            </section>
+        </header>
+        <main>
+            <section>
+                <picture>
+                    <source srcset="">
+                    <img src="https://live.verstaem.online/ujjo/img/ujjo.svg" alt="UJJO">
+                </picture>
+                <div class="animation">
+                    <picture>
+                        <source srcset="">
+                        <img src="https://live.verstaem.online/ujjo/img/pepper.svg" alt="pepper">
+                    </picture>
+                    <p>PUT SOME FIRE IN YOUR BELLY</p>
+                </div>
+                <picture>
+                    <source srcset="">
+                    <img src="https://live.verstaem.online/ujjo/img/hero-image.jpg" alt="bottle">
+                </picture>
+            </section>
+            <section>
+                <h1>THE FIRST HOT SAUCE MADE FOR COFFEE</h1>
+                <picture>
+                    <source srcset="">
+                    <img src="https://live.verstaem.online/ujjo/img/hero-image-2.jpg" alt="hand with bottle">
+                </picture>
+            </section>
+            <section>
+                <picture>
+                    <source srcset="">
+                    <img src="https://live.verstaem.online/ujjo/img/products-decor-1.svg" alt="scorpio">
+                </picture>
+                <h2>THROW SOME LAVA IN YOUR JAVA</h2>
+                <picture>
+                    <source srcset="">
+                    <img src="https://live.verstaem.online/ujjo/img/products-decor-2.svg" alt="reverse scorpio">
+                </picture>
+            </section>
+            <section>
+                <picture>
+                    <source srcset="">
+                    <img src="" alt="little flame">
+                </picture>
+                <picture>
+                    <source srcset="">
+                    <img src="" alt="big flame">
+                </picture>
+                <picture>
+                    <source srcset="">
+                    <img src="" alt="big flame">
+                </picture>
+                <picture>
+                    <source srcset="">
+                    <img src="" alt="little flame">
+                </picture>
+                <section>
+                    <p>TANGY AND TINGLY</p>
+                    <h3>LIGHT ROAST BLEND</h3>
+                    <picture>
+                        <source srcset="">
+                        <img src="https://live.verstaem.online/ujjo/img/product-bg.svg" alt="green frame">
+                    </picture>
+                    <picture>
+                        <source srcset="">
+                        <img src="https://live.verstaem.online/ujjo/img/product-1.png" alt="light roast sauce image">
+                    </picture>
+                </section>
+                <section>
+                    <p>LIGHT & DARK ROAST</p>
+                    <h3>UJJO SAMPLER PACK</h3>
+                    <picture>
+                        <source srcset="">
+                        <img src="https://live.verstaem.online/ujjo/img/product-bg.svg" alt="green frame">
+                    </picture>
+                    <picture>
+                        <source srcset="">
+                        <img src="https://live.verstaem.online/ujjo/img/product-2.png" alt="light & dark roast sauces image">
+                    </picture>
+                </section>
+                <section>
+                    <p>TANGY AND TINGLY</p>
+                    <h3>DARK ROAST BLEND</h3>
+                    <picture>
+                        <source srcset="">
+                        <img src="https://live.verstaem.online/ujjo/img/product-bg.svg" alt="green frame">
+                    </picture>
+                    <picture>
+                        <source srcset="">
+                        <img src="https://live.verstaem.online/ujjo/img/product-3.png" alt="dark roast sauce image">
+                    </picture>
+                </section>
+            </section>
+            <section>
+                <div class="animation">
+                    <picture>
+                        <source srcset="">
+                        <img src="https://live.verstaem.online/ujjo/img/pepper.svg" alt="pepper">
+                    </picture>
+                    <p>PUT SOME FIRE IN YOUR BELLY</p>
+                </div>
+                <picture>
+                    <source srcset="">
+                    <img src="https://live.verstaem.online/ujjo/img/product-cover.jpg" alt="huge bottle image">
+                </picture>
+            </section>
+            <section>
+                <h2>THE STORY BEHIND THE SAUCE</h2>
+                <picture>
+                    <source srcset="">
+                    <img src="https://live.verstaem.online/ujjo/img/story.jpg" alt="girl with bottle of sauce">
+                </picture>
+            </section>
+            <section>
+                <picture>
+                    <source srcset="">
+                    <img src="https://live.verstaem.online/ujjo/img/story-bg.svg" alt="text frame">
+                </picture>
+                <p>HELLO, I'M LAUREN AND AS A LIFELONG ADVENTUROUS EATER, I'VE TRIED A LOT OF CRAZY THINGS, BUT I NEVER THOUGHT HOT SAUCE IN COFFEE WAS A SANE OPTION UNTIL A FRIEND DARED ME TO TRY IT.</p>
+                <p>AND IT SUCKED.</p>
+                <p>BUT I WONDERED IF THERE WAS A WAY TO ADD SPICE TO MY COFFEE. WHEN THERE WAS NO EASY SOLUTION, UJJO WAS BORN.</p>
+                <p>UJJO (OOO-JOE): THE WORD FOR “FIRE” IN KONKANI, SPOKEN ON THE WEST COAST OF INDIA, IS AN HOMAGE AND A LOVE LETTER TO MY DAD, AN INDIAN IMMIGRANT WHO INSTILLED A FIRE IN MY PALATE - AND MY HEART - FROM THE VERY BEGINNING.</p>
+            </section>
+            <section>
+                <div class="animation">
+                    <picture>
+                        <source srcset="">
+                        <img src="https://live.verstaem.online/ujjo/img/pepper.svg" alt="pepper">
+                    </picture>
+                    <p>DOWNLOAD OUR MEDIA KIT</p>
+                    <picture>
+                        <source srcset="">
+                        <img src="https://live.verstaem.online/ujjo/img/pepper.svg" alt="pepper">
+                    </picture>
+                    <p>CONTACT FOR PARTNERSHIP OPPORTUNITIES</p>
+                </div>
+                <picture>
+                    <source srcset="">
+                    <img src="https://live.verstaem.online/ujjo/img/banner.svg" alt="'UJJO' written on a green fire">
+                </picture>
+            </section>
+        </main>
+        <footer>
+            <address>
+                <a href="#">PRIVACY</a>
+                UJJO LLC, COLUMBUS OH, 43219
+                <a href="#">INSTAGRAM</a>
+            </address>
+        </footer>
+    </body>
+</html>
