@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8"/>
+        <title>UJJO - hot sauce for coffee</title>
+        <link rel = "stylesheet" href = "UJJO.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oi&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header class="header">
+            <div class="container">
+                <div class="border-block header-block flex">
+                    <button class="header-back button flex">GO BACK</button>
+                    <nav class="nav" title="Main navigation">
+                        <ul class="list-reset nav-list">
+                            <li class="nav-item"><a class="nav-link" href="#">STORY</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">SHOP</a></li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link logo">
+                                    <img src="https://live.verstaem.online/ujjo/img/logo.svg" alt="logo">
+                                </a>
+                            </li>
+                            <li class="nav-item"><a class="nav-link" href="#">CONTACT</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">WHOLESALE</a></li>
+                        </ul>
+                    </nav>
+                    <button class="header-clone button flex">CLONE</button>
+                </div>
+            </div>
+        </header>
+        <main>
+            <section class="hero">
+                <div class="container">
+                    <div class="border-block hero-block flex">
+                        <section class="hero-left">
+                            <div class="hero-ujjo">
+                                <picture class="ujjo-image">
+                                    <source srcset="">
+                                    <img src="https://live.verstaem.online/ujjo/img/ujjo.svg" alt="UJJO">
+                                </picture>
+                            </div>
+                            <div class="hero-phrase ticker">
+                                <div class="ticker-wrapper">
+                                    <div class="ticker-item">
+                                        PUT SOME FIRE IN YOUR BELLY
+                                        <img class="ticker-icon" src="https://live.verstaem.online/ujjo/img/pepper.svg" alt="pepper">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hero-image">
+                                <picture>
+                                    <source srcset="">
+                                    <img src="https://live.verstaem.online/ujjo/img/hero-image.jpg" alt="bottle">
+                                </picture>
+                            </div>
+                        </section>
+                        <section class="hero-right">
+                            <h1 class="hero-title">THE FIRST HOT SAUCE MADE FOR COFFEE</h1>
+                            <div class="hero-image-2">
+                                <picture>
+                                    <source srcset="">
+                                    <img src="https://live.verstaem.online/ujjo/img/hero-image-2.jpg" alt="hand with bottle">
+                                </picture>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </section>
+            <section class="products">
+                <div class="container">
+                    <div class="border-block products-top flex">
+                        <h2 class="products-title">THROW SOME LAVA IN YOUR JAVA</h2>
+                    </div>
+                    <div class="border-block products-content">
+                        <div class="products-decorative">
+                            <picture>
+                                <source srcset="">
+                                <img src="" alt="little flame">
+                            </picture>
+                            <picture>
+                                <source srcset="">
+                                <img src="" alt="big flame">
+                            </picture>
+                            <picture>
+                                <source srcset="">
+                                <img src="" alt="big flame">
+                            </picture>
+                            <picture>
+                                <source srcset="">
+                                <img src="" alt="little flame">
+                            </picture>
+                        </div>
+                        <ul class="list-reset products-list">
+                            <li class="products-item">
+                                <article class="card">
+                                    <div class="card-taste">tangy and tingly</div>
+                                        <h3 class="card-title">light roast blend</h3>
+                                        <picture>
+                                            <source srcset="">
+                                            <img  class="card-image" src="https://live.verstaem.online/ujjo/img/product-1.png" alt="light roast blend">
+                                    </picture>
+                                </article>
+                            </li>
+                            <li class="products-item">
+                                <article class="card">
+                                    <div class="card-taste">light & dark roast</div>
+                                        <h3 class="card-title">ujjo sampler pack</h3>
+                                        <picture>
+                                            <source srcset="">
+                                            <img  class="card-image" src="https://live.verstaem.online/ujjo/img/product-2.png" alt="2 flavours pack">
+                                    </picture>
+                                </article>
+                            </li>
+                            <li class="products-item">
+                                <article class="card">
+                                    <div class="card-taste">tangy and tingly</div>
+                                        <h3 class="card-title">dark roast blend</h3>
+                                        <picture>
+                                            <source srcset="">
+                                            <img  class="card-image" src="https://live.verstaem.online/ujjo/img/product-3.png" alt="dark roast blend">
+                                    </picture>
+                                </article>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="border-block products-ticker">
+                    <div class="products-phrase ticker">
+                        <div class="ticker-wrapper">
+                            <div class="ticker-item">
+                                PUT SOME FIRE IN YOUR BELLY
+                                <img class="ticker-icon" src="https://live.verstaem.online/ujjo/img/pepper.svg" alt="pepper">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="border-block products-cover">
+                    <picture>
+                        <source srcset="">
+                        <img src="https://live.verstaem.online/ujjo/img/product-cover.jpg" alt="huge bottle image">
+                    </picture>
+                </div>
+            </section>
+            <section class="story">
+                <div class="container">
+                    <div class="border-block story-block flex">
+                        <div class="story-left">
+                            <h2 class="story-title">THE STORY BEHIND THE SOUCE</h2>
+                            <div class="story-image-wrapper">
+                                <picture>
+                                    <source srcset="">
+                                    <img class="story-image" src="https://live.verstaem.online/ujjo/img/story.jpg" alt="girl with bottle of sauce">
+                                </picture>
+                            </div>
+                        </div>
+                        <div class="story-right">
+                            <div class="story-content">
+                                <p class="story-text">
+                                    HELLO, I'M LAUREN AND AS A LIFELONG ADVENTUROUS EATER, I'VE TRIED A LOT OF CRAZY THINGS, BUT I NEVER THOUGHT HOT SAUCE IN COFFEE WAS A SANE OPTION UNTIL A FRIEND DARED ME TO TRY IT.
+                                </p>
+                                <p class="story-text">
+                                    AND IT SUCKED.
+                                </p>
+                                <p class="story-text">
+                                    BUT I WONDERED IF THERE WAS A WAY TO ADD SPICE TO MY COFFEE. WHEN THERE WAS NO EASY SOLUTION, UJJO WAS BORN.
+                                </p>
+                                <p class="story-text">
+                                    UJJO (OOO-JOE): THE WORD FOR “FIRE” IN KONKANI, SPOKEN ON THE WEST COAST OF INDIA, IS AN HOMAGE AND A LOVE LETTER TO MY DAD, AN INDIAN IMMIGRANT WHO INSTILLED A FIRE IN MY PALATE - AND MY HEART - FROM THE VERY BEGINNING.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="ticker-bottom ticker border-block">
+                    <div class="ticker-wrapper">
+                        <div class="ticker-item">
+                            DOWNLOAD OUR MEDIA KIT
+                            <img class="ticker-icon" src="https://live.verstaem.online/ujjo/img/pepper.svg" alt="pepper">
+                            CONTACT FOR PARTNERSHIP OPPORTUNITIES
+                            <img class="ticker-icon" src="https://live.verstaem.online/ujjo/img/pepper.svg" alt="pepper">
+                        </div>
+                    </div>
+                </div>
+                <div class="banner">
+                    <div class="container">
+                        <div class="border-block">
+                            <picture>
+                                <source srcset="">
+                                <img class="banner-image" src="https://live.verstaem.online/ujjo/img/banner.svg" alt="'UJJO' written on a green fire">
+                            </picture>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="border-block footer">
+            <div class="container">
+                <div class="border-block footer-content">
+                    <a href="#" target="_blank" class="footer-text footer-link">PRIVACY</a>
+                            <span class="footer-text">
+                                UJJO LLC, COLUMBUS OH, 43219
+                            </span>
+                    <a href="#" target="_blank" class="footer-text footer-link">INSTAGRAM</a>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
