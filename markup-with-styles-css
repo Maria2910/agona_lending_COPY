@@ -1,0 +1,364 @@
+
+* {
+    font-family: "Roboto";
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.border-block {
+    border: 1px solid black;
+}
+
+.flex {
+    display: flex;
+}
+
+.header-block {
+    align-items: center;
+    justify-content: space-between;
+    padding: 22px;
+}
+
+.button {
+    display: inline-block;
+    border: none;
+    padding: 15px 44px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: white;
+    background-color: #fb4b4d;
+    cursor: pointer;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+}
+
+.nav-link {
+    display: inline-block;
+    padding: 15px 44px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: #222;
+}
+
+.nav-item {
+    list-style-type: none;
+}
+
+.nav-item:not(:last-child) {
+    margin-right: 10px;
+}
+
+.nav-link {
+    text-decoration: none;
+}
+
+.logo {
+    padding: 0;
+}
+
+.hero-block {
+    margin-top: -1px;
+}
+
+.hero-left {
+    border-right: 1px solid black;
+    width: 50%;
+}
+
+.hero-right {
+    width: 50%;
+}
+
+.ujjo-image {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-phrase {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 26px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: black;
+}
+
+.ticker {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.hero-image {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-title {
+    margin: 0;
+    border-bottom: 1px solid black;
+    padding: 20px 100px;
+    font-weight: 400;
+    font-size: 58px;
+    line-height: 65px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+}
+
+.hero-image-2 {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.products {
+    margin-top: -1px;
+}
+
+.products-top {
+    padding: 60px 30px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.products-title {
+    margin: 0 auto;
+    max-width: 785px;
+    font-weight: 400;
+    font-size: 65px;
+    line-height: 73px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+    display: inline-block;
+}
+
+.products-top::before {
+    content : "";
+    display: block;
+    width: 225px;
+    height: 156px;
+    background-image: url(https://live.verstaem.online/ujjo/img/products-decor-1.svg);
+}
+
+.products-top::after {
+    content : "";
+    display: block;
+    width: 225px;
+    height: 156px;
+    background-image: url(https://live.verstaem.online/ujjo/img/products-decor-2.svg);
+}
+
+.products-content {
+    position: relative;
+    margin-top: -1px;
+    padding-top: 20px;
+}
+
+.products-list {
+    list-style-type: none;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    padding: 0 20px;
+    padding-bottom: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.products-item {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 22px;
+    padding-top: 50px;
+    min-height: 658px;
+    background-image: url(https://live.verstaem.online/ujjo/img/product-bg.svg);
+    background-position: bottom center;
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+.card-taste {
+    margin-bottom: 14px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+}
+
+.card-title {
+    margin: 0;
+    margin-bottom: 14px;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+}
+
+.products-decorative {
+    position: absolute;
+    left: 50%;
+    top: 20px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: calc(100% - 40px);
+    transform: translateX(-50%);
+}
+
+.products-ticker {
+    margin-top: -1px;
+}
+
+.products-phrase {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 26px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: black;
+}
+
+.products-cover {
+    margin-top: -1px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.story-block {
+    margin-top: -1px;
+}
+
+.story-left {
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid black;
+    width: 50%;
+    aspect-ratio: 1/1;
+}
+
+.story-right {
+    width: 50%;
+    aspect-ratio: 1/1;
+}
+
+.story-title {
+    margin: 0;
+    margin-bottom: auto;
+    padding: 50px 60px;
+    font-weight: 400;
+    font-size: 58px;
+    line-height: 65px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+}
+
+.story-image {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
+
+.story-content {
+    aspect-ratio: 1/1;
+    background-image: url(https://live.verstaem.online/ujjo/img/story-bg.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.story-text {
+    margin: 0 auto;
+    max-width: 390px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+}
+
+.story-text:not(:last-child) {
+    padding-bottom: 24px;
+}
+
+.story-text:first-child {
+    padding-top: 130px;
+}
+
+.story-text:last-child {
+    padding-bottom: 130px;
+}
+
+.ticker-bottom {
+    margin-top: -1px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 26px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: black;
+}
+
+.banner {
+    margin-top: -1px;
+}
+
+.banner-image {
+    display: block;
+    margin-top: -180px;
+    width: 100%;
+}
+
+.footer-content {
+    margin: -1px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: -1px;
+    padding: 20px 93px;
+    background-color: #cdfd3b;
+}
+
+.footer-text {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+}
