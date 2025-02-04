@@ -1,0 +1,373 @@
+
+* {
+    font-family: "Roboto";
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.border-block {
+    border: 1px solid black;
+}
+
+.flex {
+    display: flex;
+}
+
+.header-block {
+    align-items: center;
+    justify-content: space-between;
+    padding: 1vh 2vw;
+}
+
+.button {
+    display: inline-block;
+    border: none;
+    padding: 1vw 3.5vw;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 1.5em;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    white-space: nowrap;
+    color: white;
+    background-color: #fb4b4d;
+    cursor: pointer;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+}
+
+.nav-link {
+    display: inline-block;
+    padding: 1vw 3.5vw;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 1.5em;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: #222;
+}
+
+.nav-item {
+    list-style-type: none;
+}
+
+.nav-item:not(:last-child) {
+    margin-right: 1.5vw;
+}
+
+.nav-link {
+    text-decoration: none;
+}
+
+.logo {
+    padding: 0;
+}
+
+.hero-block {
+    margin-top: -1px;
+}
+
+.hero-left {
+    border-right: 1px solid black;
+    width: 50%;
+}
+
+.hero-right {
+    width: 50%;
+}
+
+.ticker {
+    position: relative;
+    overflow: hidden;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.ujjo-image {
+    padding: 1.8vw;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-phrase {
+    padding: 0.8vw 0;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 1.5em;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: black;
+}
+
+.hero-image {
+    padding: 1.8vw;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-title {
+    margin: 0;
+    border-bottom: 1px solid black;
+    padding: 1.5vw 8vw;
+    font-weight: 400;
+    font-size: 3.8em;
+    line-height: 1.1em;
+    letter-spacing: 0.5px;
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+}
+
+.hero-image-2 {
+    padding: 1.8vw;
+    display: flex;
+    justify-content: center;
+}
+
+.products {
+    margin-top: -1px;
+}
+
+.products-top {
+    padding: 2.5vw;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.products-title {
+    margin: 0 auto;
+    max-width: 50vw;
+    font-weight: 400;
+    font-size: 3.8em;
+    line-height: 1.1em;
+    letter-spacing: 0.5px;
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+    display: inline-block;
+}
+
+.products-top::before {
+    content : "";
+    display: block;
+    width: 16vw;
+    height: 12vw;
+    background-image: url(https://live.verstaem.online/ujjo/img/products-decor-1.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.products-top::after {
+    content : "";
+    display: block;
+    width: 16vw;
+    height: 12vw;
+    background-image: url(https://live.verstaem.online/ujjo/img/products-decor-2.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.products-content {
+    position: relative;
+    margin-top: -1px;
+    padding-top: 1.5vw;
+}
+
+.products-list {
+    list-style-type: none;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    padding: 0 1vw;
+    padding-bottom: 0;
+    justify-content: center;
+}
+
+.products-item {
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 1vw;
+    padding-top: 1.5vw;
+    min-height: 45vw;
+    background-image: url(https://live.verstaem.online/ujjo/img/product-bg.svg);
+    background-position: bottom center;
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+.card-taste {
+    margin-bottom: 1vw;
+    font-weight: 400;
+    font-size: 1.1em;
+    line-height: 1.5em;
+    letter-spacing: 0.5px;
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+}
+
+.card-title {
+    margin: 0;
+    margin-bottom: 0.8vw;
+    font-weight: 400;
+    font-size: 2em;
+    line-height: 1.5em;
+    letter-spacing: 0.5px;
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+}
+
+.products-decorative {
+    position: absolute;
+    left: 50%;
+    top: 1.5vw;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 95vw;
+    transform: translateX(-50%);
+}
+
+.products-ticker {
+    margin-top: -1px;
+}
+
+.products-phrase {
+    padding: 0.8vw 0;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 1.5em;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: black;
+}
+
+.products-cover {
+    margin-top: -1px;
+    padding: 1.8vw;
+    display: flex;
+    justify-content: center;
+}
+
+.story-block {
+    margin-top: -1px;
+}
+
+.story-left {
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid black;
+    width: 50%;
+    aspect-ratio: 1/1;
+}
+
+.story-right {
+    width: 50%;
+    aspect-ratio: 1/1;
+}
+
+.story-title {
+    margin: 0;
+    border-bottom: 1px solid black;
+    padding: 1.5vw 8vw;
+    font-weight: 400;
+    font-size: 3.8em;
+    line-height: 1.1em;
+    letter-spacing: 0.5px;
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+}
+
+.story-image {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
+
+.story-content {
+    aspect-ratio: 1/1;
+    background-image: url(https://live.verstaem.online/ujjo/img/story-bg.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.story-text {
+    margin: 0 auto;
+    max-width: 28vw;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 1.5em;
+    letter-spacing: 0.5px;
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+}
+
+.story-text:not(:last-child) {
+    padding-bottom: 2vw;
+}
+
+.story-text:first-child {
+    padding-top: 10vw;
+}
+
+.story-text:last-child {
+    padding-bottom: 10vw;
+}
+
+.ticker-bottom {
+    padding: 0.8vw 0;
+    margin-top: -1px;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 1.5em;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: black;
+}
+
+.banner {
+    margin-top: -1px;
+}
+
+.banner-image {
+    display: block;
+    margin-top: -12vw;
+    width: 100%;
+}
+
+.footer-content {
+    margin: -1px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: -1px;
+    padding: 1vw 6vw;
+    background-color: #cdfd3b;
+}
+
+.footer-text {
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 1.5em;
+    letter-spacing: 0.5px;
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+}
